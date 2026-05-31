@@ -14,7 +14,7 @@ exchange = ccxt.kucoin()
 # =========================
 
 FEE_RATE = 0.001
-MIN_PROFIT = -0.4
+MIN_PROFIT = -0.35
 
 BASE_ASSETS = ["BTC", "ETH", "BNB", "XRP", "ADA", "SOL", "DOT", "DOGE", "AVAX", "MATIC"]
 
