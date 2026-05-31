@@ -1,8 +1,17 @@
 import streamlit as st
 import bott
+import time
 
 st.title("📊 Live Crypto Arbitrage Scanner")
 
-st.write("Scanner is running...")
+placeholder = st.empty()
 
-st.write("Check terminal output in backend (bott.py is running)")
+while True:
+    try:
+        # we will connect real data here next step
+        placeholder.write("🔄 Scanner running... waiting for live data")
+
+        time.sleep(2)
+
+    except Exception as e:
+        placeholder.write(f"Error: {e}")
